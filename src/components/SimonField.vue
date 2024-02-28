@@ -124,7 +124,9 @@ export default {
         light.fail = false
       })
       for (const interval of Object.values(this.intervals)) {
-        clearInterval(interval)
+        if (interval) {
+          clearInterval(interval)
+        }
       }
     }
   }
