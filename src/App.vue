@@ -90,8 +90,10 @@ export default {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  gap: 100px;
+  gap: 50px;
   padding-top: 25vh;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .app__controls {
